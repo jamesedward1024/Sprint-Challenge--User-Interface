@@ -199,3 +199,17 @@ nav a{
 .banner-content{
     margin-bottom:25px;
 }
+
+.twoColumn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.twoColumn .text-container {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
