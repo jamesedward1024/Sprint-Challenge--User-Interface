@@ -111,6 +111,36 @@ p {
     align-items: center;
     justify-content: center;
 }
+#box1{
+    background-color:teal;
+}
+#box2{
+    background-color:gold;
+}
+#box3{
+    background-color:cadetblue;
+}
+#box4{
+    background-color:coral;
+}
+#box5{
+    background-color:crimson;
+}
+#box6{
+    background-color:forestgreen;
+}
+#box7{
+    background-color:darkorchid;
+}
+#box8{
+    background-color:hotpink;
+}
+#box9{
+    background-color:indigo;
+}
+#box10{
+    background-color:dodgerblue;
+}
 
 .bottom-content {
     display: flex;
@@ -143,4 +173,29 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* JAMES ADDITIONAL CSS */
+
+header{
+    display:flex;
+    flex-wrap: nowrap;
+    align-items:baseline;
+    margin: 20px 0px 35px 0px;
+}
+
+
+nav{
+    width:100%;
+    display:flex;
+    justify-content: space-around;
+}
+
+nav a{
+    text-decoration: none;
+    color:black;
+}
+
+.banner-content{
+    margin-bottom:25px;
 }
